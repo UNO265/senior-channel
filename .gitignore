@@ -1,0 +1,3 @@
+docs/episodes/*/audio/**/*.wav
+.venv/
+__pycache__/
