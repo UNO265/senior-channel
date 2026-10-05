@@ -108,6 +108,10 @@ def main():
             print(f"[{r['id']}] {r['speaker']}: {r['text'][:40]}")
             synth_line(model, r["text"], r["speaker"], out, args.dry_run)
 
+    assemble(rows, audio, lines, {"engine": "melotts", "voices": VOICES, "dry_run": args.dry_run})
+
+def assemble(rows, audio: Path, lines: Path, meta: dict):
+    """줄 wav들을 쉼과 함께 장별·전체 파일로 잇고 timings.json을 쓴다."""
     missing = [r["id"] for r in rows if not (lines / f"{r['id']}.wav").exists()]
     if missing:
         print(f"아직 없는 줄 {len(missing)}개 — 이어 붙이기는 전체가 만들어진 뒤에 한다")
@@ -134,7 +138,7 @@ def main():
     for ch, parts in chapters.items():
         write_wav(audio / f"ch{ch}.wav", np.concatenate(parts))
     write_wav(audio / "full.wav", np.concatenate(full))
-    json.dump({"total_sec": round(t, 3), "dry_run": args.dry_run, "voices": VOICES, "lines": timings},
+    json.dump({"total_sec": round(t, 3), **meta, "lines": timings},
               open(audio / "timings.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"전체 {t/60:.1f}분 → {audio}")
 

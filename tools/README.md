@@ -3,9 +3,17 @@
 | 파일 | 하는 일 |
 |---|---|
 | `tts_prep.py` | 확정 대본(`script/act*.md`) → TTS 원고(`tts/script.tsv`). 화자 지정(`tts/speakers.tsv`)·숫자 한글 읽기 |
+| `tts_qwen.py` | **현재 사용.** TTS 원고 → Qwen3-TTS(내레이터 Sohee), 장별·전체 wav, `audio/timings.json` |
 | `tts_melo.py` | TTS 원고 → MeloTTS 한국어 음성, 장별·전체 wav, 줄별 타이밍(`audio/timings.json`) |
 
-## MeloTTS 설치 (윈도우 + NVIDIA GPU)
+## Qwen3-TTS (현재)
+
+```
+pip install qwen-tts soundfile librosa
+HF_HUB_DISABLE_XET=1 python tools/tts_qwen.py docs/episodes/ep01-short --device cpu   # GPU면 --device cuda:0
+```
+
+## (폐기) MeloTTS 설치 (윈도우 + NVIDIA GPU)
 
 > MeloTTS는 MIT 라이선스다(설치 전에 https://github.com/myshell-ai/MeloTTS 에서 다시 확인). 한국어 목소리는 하나뿐이라, 인물은 `tts_melo.py`의 `VOICES`(속도·음높이)로만 구분한다.
 > 이 레포의 작업 환경에서는 모델을 내려받을 수 없어 실제 합성은 시험하지 못했다. 처음 돌릴 때 오류가 나면 메시지를 그대로 알려 주세요.
