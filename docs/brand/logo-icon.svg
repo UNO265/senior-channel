@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800"><rect width="800" height="800" fill="#FBF5EA"/><circle cx="400" cy="400" r="400" fill="#FBF5EA"/><polygon points="131.4,362 273.0,228.0 414.6,362" fill="#1F3A5F"/>
+<rect x="153.0" y="360" width="240" height="250" fill="#1F3A5F"/>
+<rect x="193.8" y="405.0" width="72.0" height="72.0" rx="5.76" fill="#F08A3C"/>
+<path d="M229.8 405.0 V477.0 M193.8 441.0 H265.8" stroke="#1F3A5F" stroke-width="5.76"/>
+<rect x="301.8" y="505.0" width="52.8" height="105.0" rx="7.919999999999999" fill="#FBF5EA" opacity="0.9"/><polygon points="385.4,362 527.0,228.0 668.6,362" fill="#3F7A8C"/>
+<rect x="407.0" y="360" width="240" height="250" fill="#3F7A8C"/>
+<rect x="447.8" y="405.0" width="72.0" height="72.0" rx="5.76" fill="#F08A3C"/>
+<path d="M483.8 405.0 V477.0 M447.8 441.0 H519.8" stroke="#3F7A8C" stroke-width="5.76"/>
+<rect x="555.8" y="505.0" width="52.8" height="105.0" rx="7.919999999999999" fill="#FBF5EA" opacity="0.9"/><rect x="113.0" y="610" width="574" height="14" rx="7" fill="#EADFCB"/></svg>

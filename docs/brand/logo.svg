@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800"><rect width="800" height="800" fill="#FBF5EA"/><circle cx="400" cy="400" r="400" fill="#FBF5EA"/><polygon points="164.1,302 288.0,184.5 411.9,302" fill="#1F3A5F"/>
+<rect x="183.0" y="300" width="210" height="210" fill="#1F3A5F"/>
+<rect x="218.7" y="337.8" width="63.0" height="63.0" rx="5.04" fill="#F08A3C"/>
+<path d="M250.2 337.8 V400.8 M218.7 369.3 H281.7" stroke="#1F3A5F" stroke-width="5.04"/>
+<rect x="313.2" y="421.8" width="46.2" height="88.2" rx="6.930000000000001" fill="#FBF5EA" opacity="0.9"/><polygon points="388.1,302 512.0,184.5 635.9,302" fill="#3F7A8C"/>
+<rect x="407.0" y="300" width="210" height="210" fill="#3F7A8C"/>
+<rect x="442.7" y="337.8" width="63.0" height="63.0" rx="5.04" fill="#F08A3C"/>
+<path d="M474.2 337.8 V400.8 M442.7 369.3 H505.7" stroke="#3F7A8C" stroke-width="5.04"/>
+<rect x="537.2" y="421.8" width="46.2" height="88.2" rx="6.930000000000001" fill="#FBF5EA" opacity="0.9"/><rect x="143.0" y="510" width="514" height="14" rx="7" fill="#EADFCB"/><text x="400" y="660" text-anchor="middle" font-family="Gowun Batang" font-weight="700" font-size="104" fill="#1F3A5F" letter-spacing="2">이웃의 노후</text></svg>
