@@ -24,9 +24,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from tts_melo import SR, assemble, parse_only, write_wav  # noqa: E402
 
 API = "https://texttospeech.googleapis.com/v1"
-# 화자 → (목소리 이름, 말하기 속도). 내레이터 목소리는 --sample로 들어 보고 정한다.
+# 화자 → (목소리 이름, 말하기 속도). 내레이터: Vindemiatrix(2026-10-05 사용자 선택)
 VOICES = {
-    "내레이터": ("ko-KR-Chirp3-HD-Aoede", 0.95),
+    "내레이터": ("ko-KR-Chirp3-HD-Vindemiatrix", 0.95),
 }
 
 

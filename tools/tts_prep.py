@@ -51,6 +51,8 @@ def read_numbers(t: str) -> str:
     t = re.sub(r"(\d+)월", lambda m: MONTH.get(int(m[1]), sino(int(m[1])) + "월"), t)
     # 만/천/백 앞의 1은 읽지 않는다(1만 → 만)
     t = re.sub(r"(?<![\d.])1(?=[만천백십])", "", t)
+    # 숫자와 단위는 띄운다(30년 → 삼십 년). 붙이면 Chirp 3 HD 억양이 어색해진다.
+    t = re.sub(r"(\d)(?=년|원|세|명|개월|살|배|퍼센트)", r"\1 ", t)
     t = re.sub(r"\d+(?:\.\d+)?", lambda m: num(m[0]), t)
     t = t.replace("⅔", "삼분의 이")
     return re.sub(r"\s+", " ", t).strip()

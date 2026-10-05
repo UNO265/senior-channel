@@ -28,3 +28,4 @@
 | 2026-10-05 | 짧은 판 썸네일: 시안 A(두 통장 비교) | ep01-short/thumbnail |
 | 2026-10-05 | 음성 엔진 변경: MeloTTS(기계음) → Qwen3-TTS, 내레이터 Sohee | 03 V5, tools/tts_qwen.py |
 | 2026-10-05 | 음성 엔진: Google Chirp 3 HD(무료 한도 안). 오픈소스 TTS 폐기 | 03 V5, tools/tts_google.py |
+| 2026-10-05 | 내레이터 목소리: Chirp 3 HD Vindemiatrix(속도 0.95). TTS 원고는 숫자와 단위를 띄운다 | 03 V5, tools/tts_google.py, tools/tts_prep.py |
