@@ -29,3 +29,4 @@
 | 2026-10-05 | 음성 엔진 변경: MeloTTS(기계음) → Qwen3-TTS, 내레이터 Sohee | 03 V5, tools/tts_qwen.py |
 | 2026-10-05 | 음성 엔진: Google Chirp 3 HD(무료 한도 안). 오픈소스 TTS 폐기 | 03 V5, tools/tts_google.py |
 | 2026-10-05 | 내레이터 목소리: Chirp 3 HD Vindemiatrix(속도 0.95). TTS 원고는 숫자와 단위를 띄운다 | 03 V5, tools/tts_google.py, tools/tts_prep.py |
+| 2026-10-05 | 짧은 판 대본 3곳 수정(소리로 헷갈림): 「국민연금 안의」→「가운데」, 「답은 "아니에요"예요」→「답부터 말씀드리면, 아니에요.」, 「가까우시다면」→「가까우시면」 | ep01-short/script/act1.md |
