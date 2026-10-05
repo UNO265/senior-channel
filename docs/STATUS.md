@@ -21,6 +21,7 @@
 | 업로드 문구 | 초안 (`upload.md`) — 챕터 시각은 현재 음성 기준으로 반영 |
 | 사실 확인 | **사용자 휴대폰 확인 대기** (`ep01/factcheck.md` 1~7번) |
 | 음성 | **완료, 사용자 청취 대기** — Chirp 3 HD Vindemiatrix, 5분 11초(`audio/timings.json`, wav는 git 제외라 새 세션이면 `python tools/tts_google.py docs/episodes/ep01-short`로 다시 생성, 소리는 조금 달라질 수 있음). 대본 3곳 수정(「가운데」·「답부터 말씀드리면, 아니에요.」·「가까우시면」) ·호칭 「김 씨/이 씨」→「앞집 어르신/옆집 어르신」(이후 앞집/옆집) 후 해당 줄 다시 생성. 자체 검수: 잘못 읽음·끊김 없음, 짧은 줄 어조 표시만 남음 |
+| Gemini-TTS 비교 | **진행 중** — 같은 Vindemiatrix로 Chirp 3 HD vs Gemini 2.5 Flash/Pro TTS 비교 예정(말투를 글로 지시 가능). Cloud TTS 키로는 Agent Platform API를 키 제한에 넣을 수 없어 실패(IAM 거부). 사용자가 AI Studio 키를 `GEMINI_API_KEY`에 넣고 새 세션 → Gemini API로 비교 음성 만들기 |
 | 장면 설계·화면·렌더링 | 음성 뒤 |
 
 ## 채널
