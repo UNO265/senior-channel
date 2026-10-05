@@ -23,7 +23,7 @@ MODEL = "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
 VOICES = {
     "내레이터": ("Sohee", "차분하고 따뜻하게, 조금 천천히 또박또박 말해 주세요."),
 }
-BATCH = 4
+BATCH = 2
 
 
 def main():
