@@ -45,9 +45,18 @@ def banner():
     p.append(f'<text x="{W/2}" y="830" text-anchor="middle" font-family="Gowun Dodum" font-size="62" fill="{NAVY}">옆집 이야기로 풀어 보는 연금 · 건강보험료 · 지원금</text>')
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{"".join(p)}</svg>'
 
+def watermark():
+    # 유튜브 브랜딩 워터마크: 정사각형 150px 이상, PNG, 1MB 이하. 영상 오른쪽 아래에 작게 뜬다.
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">'
+            # 작은 크기에서도 읽히게 진한 주황 + 흰 글자(대비 3.6:1)
+            f'<circle cx="150" cy="150" r="142" fill="#D9661C" stroke="{CREAM}" stroke-width="10"/>'
+            '<text x="150" y="138" text-anchor="middle" font-family="Do Hyeon" font-size="96" fill="#FFFFFF">무료</text>'
+            '<text x="150" y="238" text-anchor="middle" font-family="Do Hyeon" font-size="96" fill="#FFFFFF">구독</text>'
+            '</svg>')
+
 if __name__ == "__main__":
     import cairosvg
-    for name, svg, size in [("logo", logo(True), 800), ("logo-icon", logo(False), 800), ("banner", banner(), None)]:
+    for name, svg, size in [("logo", logo(True), 800), ("logo-icon", logo(False), 800), ("banner", banner(), None), ("watermark", watermark(), None)]:
         open(f"{name}.svg", "w").write(svg)
         cairosvg.svg2png(bytestring=svg.encode(), write_to=f"{name}.png")
     print("ok")
