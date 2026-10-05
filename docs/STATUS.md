@@ -20,7 +20,8 @@
 | 제목·대본·썸네일 | **확정** (「국민연금 냈더니 기초연금이 깎였다? 짧게 계산해 드려요」, 약 6분, 썸네일 A) |
 | 업로드 문구 | 초안 (`upload.md`) — 챕터 시각은 음성 후 |
 | 사실 확인 | **사용자 휴대폰 확인 대기** (`ep01/factcheck.md` 1~7번) |
-| TTS 원고 | 완료 (`docs/episodes/ep01-short/tts/script.tsv`) — 음성은 롱폼과 함께 PC에서 |
+| 음성 | **완료** — Qwen3-TTS Sohee, 5분 50초 (`audio/timings.json`, wav는 클라우드 세션에만 있음 — 새 세션이면 `tools/tts_qwen.py`로 다시 생성) |
+| 장면 설계·화면·렌더링 | **다음 차례** |
 
 ## 채널
 
