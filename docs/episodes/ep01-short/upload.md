@@ -63,4 +63,4 @@
 
 ## 썸네일
 
-`thumbnail/thumb-a.png`(추천: 두 통장 비교) / `thumbnail/thumb-b.png`(질문형)
+**`thumbnail/thumb-a.png` 확정 2026-10-05**(두 통장 비교). B(질문형)는 보관.
