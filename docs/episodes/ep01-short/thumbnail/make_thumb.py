@@ -14,7 +14,7 @@ def thumb_a():
     p = [f'<rect width="1280" height="720" fill="{NAVY}"/>',
          f'<text x="60" y="165" font-family="Black Han Sans" font-size="128" fill="{WHITE}">30년 냈는데</text>',
          f'<text x="60" y="320" font-family="Black Han Sans" font-size="128" fill="{YELLOW}">기초연금 깎였다</text>',
-         card(60, 400, "30년 낸 김 씨", "25만 7천", ORANGE),
+         card(60, 400, "30년 낸 앞집", "25만 7천", ORANGE),
          f'<text x="500" y="525" font-family="Black Han Sans" font-size="64" fill="{WHITE}">vs</text>',
          card(600, 400, "안 낸 옆집", "34만 9천", TEAL),
          f'<g transform="translate(1060,470) scale(0.9)">{house(0, 0, 150, 150, CREAM)}</g>',

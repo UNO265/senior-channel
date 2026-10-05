@@ -1,5 +1,5 @@
 {
- "total_sec": 314.288,
+ "total_sec": 311.467,
  "engine": "google-chirp3-hd",
  "voices": {
   "내레이터": [
@@ -22,7 +22,7 @@
    "speaker": "내레이터",
    "start": 8.244,
    "end": 23.24,
-   "chars": 103
+   "chars": 106
   },
   {
    "id": "0003",
@@ -45,191 +45,191 @@
    "chapter": "01",
    "speaker": "내레이터",
    "start": 41.468,
-   "end": 53.344,
-   "chars": 74
+   "end": 50.643,
+   "chars": 72
   },
   {
    "id": "0006",
    "chapter": "01",
    "speaker": "내레이터",
-   "start": 53.794,
-   "end": 70.531,
+   "start": 51.093,
+   "end": 67.83,
    "chars": 120
   },
   {
    "id": "0007",
    "chapter": "01",
    "speaker": "내레이터",
-   "start": 70.981,
-   "end": 80.515,
-   "chars": 68
+   "start": 68.28,
+   "end": 76.254,
+   "chars": 66
   },
   {
    "id": "0008",
    "chapter": "01",
    "speaker": "내레이터",
-   "start": 80.965,
-   "end": 100.704,
-   "chars": 135
+   "start": 76.704,
+   "end": 98.723,
+   "chars": 138
   },
   {
    "id": "0009",
    "chapter": "02",
    "speaker": "내레이터",
-   "start": 102.504,
-   "end": 105.316,
+   "start": 100.523,
+   "end": 103.335,
    "chars": 16
   },
   {
    "id": "0010",
    "chapter": "02",
    "speaker": "내레이터",
-   "start": 105.766,
-   "end": 125.984,
-   "chars": 143
+   "start": 103.785,
+   "end": 123.283,
+   "chars": 140
   },
   {
    "id": "0011",
    "chapter": "02",
    "speaker": "내레이터",
-   "start": 126.434,
-   "end": 143.172,
-   "chars": 121
+   "start": 123.733,
+   "end": 139.99,
+   "chars": 120
   },
   {
    "id": "0012",
    "chapter": "02",
    "speaker": "내레이터",
-   "start": 143.622,
-   "end": 152.856,
-   "chars": 68
+   "start": 140.44,
+   "end": 150.035,
+   "chars": 71
   },
   {
    "id": "0013",
    "chapter": "02",
    "speaker": "내레이터",
-   "start": 153.306,
-   "end": 161.04,
+   "start": 150.485,
+   "end": 158.219,
    "chars": 58
   },
   {
    "id": "0014",
    "chapter": "03",
    "speaker": "내레이터",
-   "start": 162.84,
-   "end": 166.132,
+   "start": 160.019,
+   "end": 163.311,
    "chars": 22
   },
   {
    "id": "0015",
    "chapter": "03",
    "speaker": "내레이터",
-   "start": 166.582,
-   "end": 190.762,
+   "start": 163.761,
+   "end": 187.941,
    "chars": 179
   },
   {
    "id": "0016",
    "chapter": "03",
    "speaker": "내레이터",
-   "start": 191.212,
-   "end": 203.028,
+   "start": 188.391,
+   "end": 200.206,
    "chars": 82
   },
   {
    "id": "0017",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 204.828,
-   "end": 208.3,
+   "start": 202.006,
+   "end": 205.479,
    "chars": 25
   },
   {
    "id": "0018",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 208.75,
-   "end": 223.086,
+   "start": 205.929,
+   "end": 220.265,
    "chars": 88
   },
   {
    "id": "0019",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 223.536,
-   "end": 235.292,
+   "start": 220.715,
+   "end": 232.47,
    "chars": 77
   },
   {
    "id": "0020",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 235.742,
-   "end": 246.537,
+   "start": 232.92,
+   "end": 243.715,
    "chars": 74
   },
   {
    "id": "0021",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 246.987,
-   "end": 257.001,
+   "start": 244.165,
+   "end": 254.18,
    "chars": 74
   },
   {
    "id": "0022",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 257.451,
-   "end": 262.004,
+   "start": 254.63,
+   "end": 259.183,
    "chars": 22
   },
   {
    "id": "0023",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 262.454,
-   "end": 274.93,
+   "start": 259.633,
+   "end": 272.108,
    "chars": 89
   },
   {
    "id": "0024",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 275.38,
-   "end": 283.293,
+   "start": 272.558,
+   "end": 280.472,
    "chars": 60
   },
   {
    "id": "0025",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 283.743,
-   "end": 294.298,
+   "start": 280.922,
+   "end": 291.477,
    "chars": 83
   },
   {
    "id": "0026",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 294.748,
-   "end": 304.343,
+   "start": 291.927,
+   "end": 301.522,
    "chars": 72
   },
   {
    "id": "0027",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 304.793,
-   "end": 311.987,
+   "start": 301.972,
+   "end": 309.166,
    "chars": 52
   },
   {
    "id": "0028",
    "chapter": "04",
    "speaker": "내레이터",
-   "start": 312.437,
-   "end": 314.288,
+   "start": 309.616,
+   "end": 311.467,
    "chars": 10
   }
  ]
