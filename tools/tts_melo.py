@@ -95,6 +95,7 @@ def main():
     only = parse_only(args.only)
     audio = args.ep / "audio"
     lines = audio / "lines"
+    lines.mkdir(parents=True, exist_ok=True)
 
     model = None
     if not args.dry_run:
@@ -107,6 +108,10 @@ def main():
             print(f"[{r['id']}] {r['speaker']}: {r['text'][:40]}")
             synth_line(model, r["text"], r["speaker"], out, args.dry_run)
 
+    missing = [r["id"] for r in rows if not (lines / f"{r['id']}.wav").exists()]
+    if missing:
+        print(f"아직 없는 줄 {len(missing)}개 — 이어 붙이기는 전체가 만들어진 뒤에 한다")
+        return
     # 이어 붙이기
     timings, chapters, full, t = [], {}, [], 0.0
     prev = None
