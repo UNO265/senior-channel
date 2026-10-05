@@ -27,3 +27,4 @@
 | 2026-10-05 | EP01 롱폼·채널 설명을 새 규칙에 맞춤('가상' 삭제, 엔딩 댓글·구독 문구) | ep01/script, brand |
 | 2026-10-05 | 짧은 판 썸네일: 시안 A(두 통장 비교) | ep01-short/thumbnail |
 | 2026-10-05 | 음성 엔진 변경: MeloTTS(기계음) → Qwen3-TTS, 내레이터 Sohee | 03 V5, tools/tts_qwen.py |
+| 2026-10-05 | 음성 엔진: Google Chirp 3 HD(무료 한도 안). 오픈소스 TTS 폐기 | 03 V5, tools/tts_google.py |
