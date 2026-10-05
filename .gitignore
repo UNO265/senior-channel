@@ -2,3 +2,4 @@ docs/episodes/*/audio/**/*.wav
 .venv/
 __pycache__/
 docs/episodes/*/preview/
+docs/episodes/*/audio/qa.json
